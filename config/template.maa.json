@@ -5,7 +5,8 @@
       "PackageName": "Official",
       "MaaPath": "D:/Program Files/MAA",
       "TouchMethod": "minitouch",
-      "DeploymentWithPause": false
+      "DeploymentWithPause": false,
+      "MumuExtras": false
     },
     "MaaRecord": {
       "ReportToPenguin": false,

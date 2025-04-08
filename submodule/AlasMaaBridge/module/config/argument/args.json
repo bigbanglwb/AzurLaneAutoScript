@@ -34,6 +34,10 @@
       "DeploymentWithPause": {
         "type": "checkbox",
         "value": false
+      },
+      "MumuExtras": {
+        "type": "checkbox",
+        "value": false
       }
     },
     "MaaRecord": {

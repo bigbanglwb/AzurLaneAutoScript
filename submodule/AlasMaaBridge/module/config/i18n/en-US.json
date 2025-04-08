@@ -156,6 +156,10 @@
     "DeploymentWithPause": {
       "name": "Deployment with Pause",
       "help": "does the deployment pause trick, experimental"
+    },
+    "MumuExtras": {
+      "name": "Enable Mumu12 Enhanced Sceen Capture",
+      "help": "Test"
     }
   },
   "MaaRecord": {

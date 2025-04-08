@@ -156,6 +156,10 @@
     "DeploymentWithPause": {
       "name": "MaaEmulator.DeploymentWithPause.name",
       "help": "MaaEmulator.DeploymentWithPause.help"
+    },
+    "MumuExtras": {
+      "name": "MaaEmulator.MumuExtras.name",
+      "help": "MaaEmulator.MumuExtras.help"
     }
   },
   "MaaRecord": {

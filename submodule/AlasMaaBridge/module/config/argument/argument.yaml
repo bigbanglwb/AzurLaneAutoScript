@@ -50,6 +50,8 @@ MaaEmulator:
     option: [ minitouch, maatouch, adb ]
   DeploymentWithPause:
     value: false
+  MumuExtras:
+    value: false
 MaaRecord:
   ReportToPenguin: false
   PenguinID: null

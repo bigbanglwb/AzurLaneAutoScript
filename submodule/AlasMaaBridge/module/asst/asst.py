@@ -106,6 +106,16 @@ class Asst:
         """
         return Asst.__lib.AsstSetInstanceOption(self.__ptr,
                                                 int(option_type), option_value.encode('utf-8'))
+    
+    def set_connection_extras(self, name: str, extras: str):
+        """
+        连接模拟器端的Extras
+
+        :params:
+            ``name``:           Extras名称
+            ``extras``:         Extras配置
+        """
+        Asst.__lib.AsstSetConnectionExtras(name.encode('utf-8'), json.dumps(extras, ensure_ascii=False).encode('utf-8'))
 
     def connect(self, adb_path: str, address: str, config: str = 'General'):
         """

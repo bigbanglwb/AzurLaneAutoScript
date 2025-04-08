@@ -135,7 +135,9 @@ class ArknightsAutoScript(AzurLaneAutoScript):
             else:
                 logger.critical('使用了不支持暂停下干员的触控方案')
                 raise RequestHumanTakeover
-
+        
+        # if self.config.MaaEmulator_MumuExtras:
+        #     asst.set_connection_extras("MuMuEmulator12","")
         return asst
 
     def maa_startup(self):
